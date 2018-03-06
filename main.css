@@ -1,0 +1,33 @@
+/* 
+#show{
+display:flex;
+justify-content:center;
+align-items:center;
+} */
+
+
+/* #show{
+    position:absolute;
+    left:50%;
+    top:50%;
+    transform:translate(-50% -50%);
+} */
+
+#word {
+    color: blue;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#subword {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#show {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
