@@ -1,7 +1,7 @@
 var img = document.getElementById("showimg");
 
 function random(){
-    var number = parseInt(10*Math.random());
+    var number = parseInt(10*Math.random())%6;
     if (number == 0)
     {
         img.src = "./img/test1.png";
