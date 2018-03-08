@@ -1,19 +1,19 @@
 var img = document.getElementById("showimg");
 
 function random(){
-    var number = parseInt(10*Math.random())%3;
-    if (number == 0)
-    {
+    // var number = parseInt(10*Math.random())%3;
+    // if (number == 0)
+    // {
         img.src = "./img/test1.png";
-    }
-    if (number == 1)
-    {
-        img.src = "./img/test2.png";
-    }
-    if (number == 2)
-    {
-        img.src = "./img/test3.png";
-    }
+    // }
+    // if (number == 1)
+    // {
+    //     img.src = "./img/test2.png";
+    // }
+    // if (number == 2)
+    // {
+    //     img.src = "./img/test3.png";
+    // }
     // if (number == 3){
     //     img.src = "./img/test6.png";
     // }
