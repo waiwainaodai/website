@@ -1,7 +1,7 @@
 var img = document.getElementById("showimg");
 
 function random(){
-     var number = parseInt(10*Math.random())%10;
+     var number = parseInt(1000*Math.random())%10;
      if (number == 0)
      {
         img.src = "./img/test1.png";
@@ -23,20 +23,21 @@ function random(){
      if (number == 5){
          img.src = "./img/test8.png";
      }
-    
+
      if (number == 6){
-         img.src = "./img/test7.jpg";
+         img.src = "./img/test7.png";
      }
      if (number == 7){
-         img.src = "./img/test8.jpg";
+         img.src = "./img/test8.png";
      }
      if (number == 8){
-         img.src = "./img/test9.jpg";
+         img.src = "./img/test9.png";
      }
      if (number == 9){
-         img.src = "./img/test10.jpg";
+         img.src = "./img/test10.png";
      }
-    
+     console.log(number);
+
 
 }
 
