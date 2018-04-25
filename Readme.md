@@ -20,7 +20,7 @@ img文件夹中用来存放已经建好的群的二维码，格式统一为：te
 
 
 
-举例：这是微信群二维码的截图。![](C:\Users\l\Desktop\website\img\test1.png)
+举例：这是微信群二维码的截图。![](https://github.com/shaperword/website/blob/master/img/test1.png)
 
 ---
 
